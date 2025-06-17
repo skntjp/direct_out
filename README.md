@@ -11,4 +11,4 @@ C++ Compiler
 PortAudio Library
 
 #使い方
-Project2/test.cppをVS 2022でコンパイル、実行
+Project2/Project2/test.cppをVS 2022でコンパイル、実行
