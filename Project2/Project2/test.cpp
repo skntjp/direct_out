@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include "portaudio.h"
 
-#define FRAMES_PER_BUFFER   512
+#define FRAMES_PER_BUFFER   2
 #define SAMPLE_RATE         44100
 #define NUM_CHANNELS        2
 #define PA_SAMPLE_TYPE      paFloat32
