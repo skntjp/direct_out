@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include "portaudio.h"
 
-#define FRAMES_PER_BUFFER   2
+#define FRAMES_PER_BUFFER   1024
 #define SAMPLE_RATE         44100
 #define NUM_CHANNELS        2
 #define PA_SAMPLE_TYPE      paFloat32
@@ -16,7 +16,7 @@ static int patestCallback( const void *inputBuffer, void *outputBuffer,
 {
     const PA_SAMPLE *in = (const PA_SAMPLE*)inputBuffer;
     PA_SAMPLE *out = (PA_SAMPLE*)outputBuffer;
-
+    printf("inputBufferAddress: %x\n", inputBuffer);
     if (inputBuffer == NULL) {
         for (unsigned int i = 0; i < framesPerBuffer * NUM_CHANNELS; i++) {
             *out++ = 0;
