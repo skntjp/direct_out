@@ -1,6 +1,4 @@
 ﻿  test.cpp
-C:\Users\sknt0\Documents\college\labowork\direct_out\Project2\Project2\test.cpp(19,12): warning C4477: 'printf' : 書式文字列 '%x' には、型 'unsigned int' の引数が必要ですが、可変個引数 1 は型 'const void *' です
-C:\Users\sknt0\Documents\college\labowork\direct_out\Project2\Project2\test.cpp(19,12): warning C4313: 'printf': 書式文字列内の '%x' が引数 1 ('const void *' 型) と競合しています
   Project2.vcxproj -> C:\Users\sknt0\Documents\college\labowork\direct_out\Project2\x64\Debug\Project2.exe
   'pwsh.exe' は、内部コマンドまたは外部コマンド、
   操作可能なプログラムまたはバッチ ファイルとして認識されていません。
